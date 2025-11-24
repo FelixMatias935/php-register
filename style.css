@@ -1,0 +1,88 @@
+/* reset mínimo */
+body {
+  background: #0D0D0F;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+
+/* container do form */
+.login-form {
+  background: #16161A;
+  width: 320px;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  
+}
+
+/* título */
+.login-form h1 {
+  font-size: 1.6rem;
+  margin-bottom: 14px;
+  color: #fff;
+  text-align: center;
+}
+
+/* mensagem dinâmica (sucesso/aviso) */
+.login-form .msg {
+  color: #0b5fff; /* azul */
+  font-weight: 700;
+  margin: 8px 0 12px;
+  text-align: center;
+}
+
+/* inputs */
+.login-form .input {
+  width: 100%;
+  padding: 10px 12px;
+  margin: 6px 0 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: border-color .18s, box-shadow .18s;
+}
+/* texto dos labels */
+p{color: #F5F5F5;}
+
+
+/* estado de foco */
+.login-form .input:focus {
+  outline: none;
+  border-color: #6b46ff;
+  box-shadow: 0 0 0 4px rgba(107,70,255,0.08);
+}
+
+.login-form .btn{
+    background-color: #6A5ACD;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.login-form .btn:hover{
+    background-color: #5147A6;
+    
+}
+
+.erro{
+    color: #eb120b;
+    font-weight: 700;
+    margin: 20px 0 0px;
+    text-align: center;
+}
+
+.sucesso{
+    color: #0bf02d;
+    font-weight: 700;
+    marin: 20px 0 0px;
+    text-align: center;
+}
